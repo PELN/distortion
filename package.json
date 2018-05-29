@@ -1,0 +1,22 @@
+{
+  "name": "foobar",
+  "version": "1.0.0",
+  "description": "Hi Devs, It's Distortion time, so your task is to create a data-visualization for a bar called FooBar.",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PELN/distortion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PELN/distortion/issues"
+  },
+  "homepage": "https://github.com/PELN/distortion#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
