@@ -1,3 +1,85 @@
 body {
+  background: #C8C8A9;
+  text-align: center; }
+
+svg {
+  margin: 50px auto;
+  width: 30%;
+  transform: rotate(-180deg);
+  border-radius: 10%; }
+
+.logo {
+  fill: #FE4365; }
+
+.clip {
+  animation: slide 10s infinite; }
+
+@keyframes slide {
+  from {
+    transform: translateY(-135px); }
+  50% {
+    transform: translateY(-5px); }
+  to {
+    transform: translateY(-135px); } }
+
+body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #162035;
+  font-family: Helvetica;
+  color: white; }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4em; }
+
+#people {
+  width: 80vw;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  display: none; }
+
+#person {
+  width: 100vw; }
+
+#beer {
+  width: 10vw;
+  height: 10vh; }
+
+#countBox {
+  width: 20vw;
+  height: auto;
+  border: 2px solid white;
+  position: absolute;
+  left: 2vw;
+  top: 15vw;
+  display: flex;
+  justify-content: center;
+  padding: 2vw 2vw 2vw 2vw; }
+  #countBox #number {
+    font-size: 7vw; }
+  #countBox #icon {
+    width: 10vw;
+    height: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 1.3vw;
+    margin-left: 1vw;
+    background-image: url(/img/icon.png); }
+
+#dateBox {
+  width: 20vw;
+  height: auto;
+  border: 2px solid white;
+  position: absolute;
+  left: 2vw;
+  top: 30vw;
+  display: flex;
+  justify-content: center;
+  padding: 2vw 2vw 2vw 2vw; }
+  #dateBox #date {
+    font-size: 2.5vw; }

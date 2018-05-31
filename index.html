@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FooBar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+        <h1>DISTORTION: FOOBAR</h1>
+
+        <div id="countBox">
+            <h3>CURRENT QUEUE</h3>
+            <div id="number"></div>
+            <div id="icon"></div>
+
+        </div>
+    
+        <div id="dateBox">
+                <h3>LAST UPDATED</h3>
+                <div id="date"></div>
+            </div>
+
+
+
+<div id="svgContainer">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+    <defs>
+      <clipPath id="circle-clip">
+        <path class="clip" d="M101.807,123.37c10-0.352,18.193,5.401,18.193,5.401V0H0v128.771c0,0,9.701-5.227,17.069-5.227s10.464,6.314,20.877,6.314
+      c10.175,0,12.703-4.209,22.053-4.209s11.981,5.438,20.578,5.438S91.807,123.722,101.807,123.37z">
+          <animate id="morph-one" dur="1" begin="0" repeatCount="indefinite" attributeName="d" from="M101.807,123.37c10-0.352,18.193,5.401,18.193,5.401V0H0v128.771c0,0,9.701-5.227,17.069-5.227s10.464,6.314,20.877,6.314
+      c10.175,0,12.703-4.209,22.053-4.209s11.981,5.438,20.578,5.438S91.807,123.722,101.807,123.37z" to="M101.807,123.37c10-0.352,18.193,5.401,18.193,5.401V0H0v128.771c0,0,9.701-5.227,17.069-5.227s10.464,6.314,20.877,6.314
+      c10.175,0,12.703-4.209,22.053-4.209s11.981,5.438,20.578,5.438S91.807,123.722,101.807,123.37z" values="M101.807,123.37c10-0.352,18.193,5.401,18.193,5.401V0H0v128.771c0,0,9.701-5.227,17.069-5.227s10.464,6.314,20.877,6.314
+      c10.175,0,12.703-4.209,22.053-4.209s11.981,5.438,20.578,5.438S91.807,123.722,101.807,123.37z;M101.807,135.303c10-0.352,18.193-6.531,18.193-6.531V0H0v128.771c0,0,9.701,4.952,17.069,4.952s10.464-9.299,20.877-9.299
+      c10.175,0,12.703,9.299,22.053,9.299s11.981-9.123,20.578-9.123S91.807,135.654,101.807,135.303z
+  ;M101.807,123.37c10-0.352,18.193,5.401,18.193,5.401V0H0v128.771c0,0,9.701-5.227,17.069-5.227s10.464,6.314,20.877,6.314
+      c10.175,0,12.703-4.209,22.053-4.209s11.981,5.438,20.578,5.438S91.807,123.722,101.807,123.37z" />
+  
+        </path>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#circle-clip)">
+      <path class="logo" d="M101.807,123.37c10-0.352,18.193,5.401,18.193,5.401V0H0v128.771c0,0,9.701-5.227,17.069-5.227s10.464,6.314,20.877,6.314
+      c10.175,0,12.703-4.209,22.053-4.209s11.981,5.438,20.578,5.438S91.807,123.722,101.807,123.37z"/>
+    </g>
+  </svg>
+</div>
+
+
+
+
+<!-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="100"/>
+    </svg> -->
+
+    <!-- <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <line x1="90" y1="60" x2="30" y2="60"/>
+      </svg> -->
+
+
+<!-- <main> -->
+
+<!-- append to newest when sorted -->
+
+<section id="people">
+
+<template id="person">
+    
+    <img id="beer" src="/img/beer.svg">
+    <p id="inQ">in queue</p>
+    <p id="loggedAt">logged at</p>
+
+
+</template>
+
+</section>
+
+<!-- </main> -->
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
